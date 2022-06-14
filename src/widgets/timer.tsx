@@ -12,6 +12,9 @@ const Timer: React.FC<TimerProps> = ({ label }) => {
     return () => clearInterval(interval);
   }, [timer]);
 
+
+    // hello
+
   return (
     <div>
       {label}: {timer}

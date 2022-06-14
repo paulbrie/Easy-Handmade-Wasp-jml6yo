@@ -2,7 +2,6 @@ import React from 'react'
 
 import { Helmet } from 'react-helmet'
 
-import AppComponent from '../components/component'
 import styles from './home.module.css'
 
 const Home = (props) => {
@@ -13,9 +12,8 @@ const Home = (props) => {
         <meta property="og:title" content="Easy Handmade Wasp" />
       </Helmet>
       <div className={styles['container1']}>
-        <h1>Hello - :)</h1>
+        <h1>Hello --- :)</h1>
       </div>
-      <AppComponent></AppComponent>
     </div>
   )
 }
